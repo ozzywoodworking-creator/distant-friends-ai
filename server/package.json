@@ -1,0 +1,15 @@
+{
+  "name": "distant-friends-ai-backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "schedule": "node scheduler.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.1.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.0.0"
+  }
+}
